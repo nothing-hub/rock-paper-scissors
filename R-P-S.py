@@ -18,7 +18,7 @@ elif randomNumber == 3:
 Player_1 = input('player_1 make your move : ').lower()
 print(f'player_2 make your move : {computerMove}')
 Player_2 = computerMove
-computerMove = Player_2
+
 if Player_1 == Player_2:
     print("the result is tie \n equal")
 if Player_1 == "rock":
