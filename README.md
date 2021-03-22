@@ -6,6 +6,6 @@ i creat this tool to show this tool code and you can see the code of this with e
 for example with pakage nano 
 
 
-pkg install nano
+pkg install nano \n
 nano R-P-S.py
 
