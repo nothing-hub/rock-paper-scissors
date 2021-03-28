@@ -7,14 +7,13 @@ print("scissors......")
 
 
 randomNumber = random.randint(0, 2)
-
 if randomNumber == 0:
     computerMove = "rock"
 elif randomNumber == 1:
     computerMove = "paper"
-elif randomNumber == 3:
+elif randomNumber == 2:
     computerMove = "scissors"
-
+conpyterMove = "rock"
 Player_1 = input('player_1 make your move : ').lower()
 print(f'player_2 make your move : {computerMove}')
 Player_2 = computerMove
